@@ -8,7 +8,7 @@ function formatDate(timestamp) {
     "Wednesday",
     "Thursday",
     "Friday",
-    "Saturday"
+    "Saturday",
   ];
   let day = days[date.getDay()];
   return `${day} ${formatHours(timestamp)}`;
@@ -72,8 +72,10 @@ function dispalyForecast(response) {
         }@2x.png"
       />
       <div class="weather-forecast-temperature">
-        
+      
+        <strong>
           ${Math.round(forecast.main.temp_max)}° /
+          </strong>
       
         ${Math.round(forecast.main.temp_min)}°
       </div>
