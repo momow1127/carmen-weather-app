@@ -26,8 +26,8 @@ li {
   padding: 0;
   color: white;
   font-size: 16px;
-  font-weight: 100;
-  line-height: 19px;
+  font-weight: 400;
+  line-height: 30px;
   text-align: center;
 }
 
@@ -62,7 +62,10 @@ margin: 20;
 
 }
 
-
+#description{
+  font-weight: 600;
+  
+}
 
 .btn-primary{
   background:#3f83ff;
@@ -121,10 +124,10 @@ small{
 
 
 .weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
-  top:-20px;
+  margin-right: 3px;
+  height: 72px;
+  width: 72px;
+ 
 }
 
 
@@ -133,6 +136,7 @@ small{
   font-size: 55px;
   line-height: 1;
   font-weight: 400;
+ 
 }
 
 .weather-temperature .units {
@@ -156,7 +160,7 @@ small{
   margin-top: 40px;
 }
 
-.weather-forecast h3 {
+.weather-forecast h6 {
   color: white
   font-size: 12px;
   font-weight: 400;
@@ -176,7 +180,7 @@ small{
 .weather-forecast-temperature {
   text-align: center;
   color:white
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   height: auto;
   line-height: 15px;
