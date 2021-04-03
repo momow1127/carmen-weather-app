@@ -58,7 +58,7 @@ margin-top: 10px;
 #navcontainer ul li { 
 display: inline;
 padding: .2em 1em;
-margin: 20;
+margin: 10;
 
 }
 
@@ -157,7 +157,7 @@ small{
 }
 
 .weather-forecast {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .weather-forecast h6 {
